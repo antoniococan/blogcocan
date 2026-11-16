@@ -3,7 +3,7 @@
 title: "My PhD Journey (In Progress)"
 author: "Antonio Cocan"
 pubDatetime: 2026-11-16T22:00:00+02:00
-modDatetime: 2026-11-16T23:20:00+02:00
+modDatetime: 2026-11-17T23:02:00+02:00
 description: "A (brief) overview of my PhD journey."
 tags:
   - mathematics
@@ -22,9 +22,13 @@ My early (significant) mathematical journey began perhaps in school at the age w
 
 I must say that my elementary school fascination was short lived! I recall that the next fascination that I had was with elementary geometry à la Euclid. However, it is not the kind of fascination that you may expect! Rather than being fascinated by calculating the area of polygons or volumes of polyhedrons, I was more fascinated by shading these areas ... The quadratic formula was kind of cool though! I memorized it and was able to wield its power when most of my classmates couldn't!
 
-Fast forward to high school and we were learning about derivatives and integrals. Now we're talking! This was ... to be continued ...
+Fast forward to high school and we were learning about derivatives and integrals. Now we're talking! This was... to be continued ...
 
-At university I made a big Big BIG blunder ... I enrolled in business, economics, and (ugh I must say it ...) marketing! Yes marketing ... Let's just say that we all make youthful mistakes! To be continued ...
+At university I made a big Big BIG blunder... I enrolled in business, economics, and (ugh I must say it...) marketing! Yes marketing... Let's just say that we all make youthful mistakes and this was mine! After my first year of undergraduates, I began taking courses in mathematics. I wasn't the best student in mathematics but I wasn't the worst either. I was somewhere in the middle. In some courses I did very well and in other I barely passed. I think this may have had to do with the fact that I was learning for the first time to think like an actual mathematician and getting used to the nitty gritty methodologies of mathematicians. It also didn't help that I refused to learn proofs and especially I refused to memorize (still refuse that!) proofs. This had the effect that I would discover or replicate proofs in exams. Sometimes this worked and sometimes it didn't. I eventually graduated with a BSc in economics and mathematics and was on my way to a masters program in mathematics -- ready to leave behind my youthful sin.
+
+I remember that the first two courses I took at the masters level were Complex Analysis and Abstract Algebra II. Out of twenty-four students, only four of us passed. I was one of them. In fact, in my masters, I was a very good student. I suppose the independent learning and stubbornness to learn proofs and discover them myself was starting to pay off. Towards the end of my degree, I pivoted towards geometry -- differential and algebraic -- and eventually I wrote my thesis in algebraic geometry and algebraic number theory. I then started applying for PhD positions.
+
+I think I applied to about fifty PhD positions and received about ten to fifteen offers. I eventually decided to join the University of Jyväskylä. Jyväskylä... What a funny sounding place I've never heard about!
 
 ## Where I currently am
 
