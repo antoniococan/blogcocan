@@ -11,11 +11,11 @@ featured: false
 draft: false
 ---
 
-This first post is about an introduction of what's currently going on in my life, how I set up my homepage and this blog; and mainly about how to blog with AstroPaper so that I have a place to fall back to.
+This first post is an introduction of what's currently going on in my life, how I set up my [academic homepage](https://antoniococan.github.io/) and my [blog](https://antoniococan.github.io/blogcocan/); and mainly about how to blog with AstroPaper so that I have a place to fall back to.
 
 ## Current life
 
-I finished my PhD thesis and sent it out for examination this November. The decision from the pre-examiners is supposed to be made by the end of this month. After that -- and depending on the decision -- I will be allowed to defend my thesis. This will happen most likely in January and I will officially graduate in January or February. I can't believe that it's actually happening! I feel nervous and excited but also a tad melancholic. I will have more to write about my PhD journey here.
+I finished my PhD thesis and sent it out for examination this November. The decision from the pre-examiners is supposed to be made by the end of this month. After that -- and depending on the decision -- I will be allowed to defend my thesis. This will happen most likely in January and I will officially graduate in January or February. I can't believe that it's actually happening! I feel nervous and excited but also a tad melancholic. I will have more to write about my PhD journey in this blog post.
 
 I am preparing for my defense. At the same time I am making preparations for my karonkka and looking for postdoctoral opportunities. Let's see where my journey takes me!
 
