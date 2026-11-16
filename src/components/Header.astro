@@ -171,7 +171,7 @@ const mainSite = "https://antoniococan.github.io";
     width: 100%;
     z-index: 10000;
     padding: 1rem 0;
-    background-color: #154734;
+    background-color: #ffffff;
     border-bottom: 2px solid #154734;
     box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
   }
@@ -211,11 +211,11 @@ const mainSite = "https://antoniococan.github.io";
   width: 2rem;
   height: 2rem;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--foreground);
 }
 
 .search-brand:hover {
-  color: #dce9df;
+  color: #154734;
 }
 
 .senli-brand {
@@ -228,28 +228,28 @@ const mainSite = "https://antoniococan.github.io";
   line-height: inherit;
   white-space: nowrap;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--foreground);
 }
 
   .senli-brand:hover {
-    color: #dce9df;
+    color: #154734;
   }
 
   /* Mobile menu button */
 
-.menu-btn {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0.75rem;
-  border: 1px solid rgb(255 255 255 / 45%);
-  border-radius: 0.375rem;
-  background: transparent;
-  color: #ffffff;
-  font-family: "Mulish", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 600;
-}
+  .menu-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 0.375rem;
+    background: transparent;
+    color: var(--foreground);
+    font-family: "Mulish", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
 
   /* Navigation */
 
@@ -271,23 +271,23 @@ const mainSite = "https://antoniococan.github.io";
     display: flex;
   }
 
-.senli-nav-link {
-  display: block;
-  padding: 0.5rem 0;
-  font-family: "Mulish", sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.5;
-  white-space: nowrap;
-  text-decoration: none;
-  color: #ffffff;
-  transition: color 0.15s ease-in-out;
-}
+  .senli-nav-link {
+    display: block;
+    padding: 0.5rem 0;
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--foreground);
+    transition: color 0.15s ease-in-out;
+  }
 
-.senli-nav-link:hover,
-.senli-nav-link.active-link {
-  color: #dce9df;
-}
+  .senli-nav-link:hover,
+  .senli-nav-link.active-link {
+    color: #154734;
+  }
 
   /* Search and theme controls */
 
@@ -303,11 +303,11 @@ const mainSite = "https://antoniococan.github.io";
     height: 2.5rem;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+    color: var(--foreground);
   }
 
   .control-button:hover {
-    color: #dce9df;
+    color: #154734;
   }
 
   /* Desktop: Bootstrap navbar-expand-lg */
