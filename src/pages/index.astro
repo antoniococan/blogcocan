@@ -39,9 +39,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
   style="color: #154734;"
 >
   <i
-    class="bi bi-journal-bookmark-fill me-1"
-    style="color: #154734;"
-  ></i>
+    class="bi bi-journal-bookmark-fill me-1" style="color: #154734;"></i>
   Antonio Cocan's Blog
 </h1>
 
@@ -60,9 +58,12 @@ Currently exploring C++ and Raylib, with an eye towards OpenGL and Vulkan, along
         </LinkButton>{" "}
 which is greatly appreciated.
       </p>
-      {
+{
   socials.length > 0 && (
-    <div class="mt-4">
+    <div class="mt-4 flex max-sm:flex-col sm:items-center">
+      <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
+        {t.home.socialLinks}:
+      </div>
       <Socials />
     </div>
   )
