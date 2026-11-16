@@ -183,84 +183,85 @@ const mainSite = "https://antoniococan.github.io";
   document.addEventListener("astro:after-swap", toggleNav);
 </script>
 
-<style>
-  /* Sen Li navbar typography and layout */
 
-  #mainNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: var(--background);
-    border-bottom: 2px solid #154734;
-    z-index: 10000;
-  }
+/* Sen Li navbar - matching original Bootstrap styling */
 
+#mainNav {
+  padding: 0.5rem 0;
+  background-color: var(--background);
+  border-bottom: 2px solid #154734;
+  z-index: 10000;
+}
+
+/* Responsive Bootstrap-style container */
+
+.senli-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+@media (min-width: 576px) {
   .senli-container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    max-width: 540px;
   }
+}
 
-  @media (min-width: 576px) {
-    .senli-container {
-      max-width: 540px;
-    }
+@media (min-width: 768px) {
+  .senli-container {
+    max-width: 720px;
   }
+}
 
-  @media (min-width: 768px) {
-    .senli-container {
-      max-width: 720px;
-    }
+@media (min-width: 992px) {
+  .senli-container {
+    max-width: min(1150px, 80vw);
   }
+}
 
-  @media (min-width: 992px) {
-    .senli-container {
-      max-width: min(1150px, 80vw);
-    }
-  }
+/* Brand: inherited Mulish, 20px, bold */
 
-  /* Brand: Kanit, 20px, bold */
+.senli-brand {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 0.3125rem 0;
+  margin-right: 1rem;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--foreground);
+}
 
-  .senli-brand {
-    font-family: "Kanit", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: inherit;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    white-space: nowrap;
-    text-decoration: none;
-    color: var(--foreground);
-  }
+.senli-brand:hover {
+  color: #154734;
+}
 
-  .senli-brand:hover {
-    color: #154734;
-  }
+/* Navigation: inherited Mulish, 16px, weight 500 */
 
-  /* Navigation: Mulish, 16px, weight 600 */
+.senli-nav-link {
+  display: block;
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--foreground);
+  transition: color 0.15s ease-in-out;
+}
 
+.senli-nav-link:hover {
+  color: #154734;
+}
+
+@media (min-width: 992px) {
   .senli-nav-link {
-    display: block;
-    font-family: "Mulish", sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.5;
-    padding: 0.5rem;
-    text-decoration: none;
-    white-space: nowrap;
-    color: var(--foreground);
-    transition: color 0.15s ease-in-out;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-right: 1rem;
   }
-
-  .senli-nav-link:hover {
-    color: #154734;
-  }
-
-  @media (min-width: 992px) {
-    .senli-nav-link {
-      margin-right: 1rem;
-    }
-  }
-</style>
+}
