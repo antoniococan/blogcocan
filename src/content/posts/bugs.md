@@ -11,8 +11,8 @@ featured: true
 draft: false
 ---
 
-Here I gather some know bugs with this blog.
+Here I gather some known bugs with this blog.
 
 ## Bugs
 
-Table of contents in posts: When clicking on sections it goes a bit too low of the title. Might have to do that I pushed the table of contents form 2rem to 7rem.
+A bug with the table of contents in posts: When clicking on sections it goes a bit too low of the title. Might have to do that I pushed the table of contents from 2rem to 7rem.
