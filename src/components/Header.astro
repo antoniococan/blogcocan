@@ -38,7 +38,7 @@ const mainSite = "https://antoniococan.github.io";
     <!-- Brand -->
     <a
       href={`${mainSite}/#page-top`}
-      class="text-xl font-bold whitespace-nowrap sm:text-2xl"
+      class="senli-brand"
     >
       {site.title}
     </a>
@@ -71,7 +71,7 @@ const mainSite = "https://antoniococan.github.io";
 
         <li>
           <a
-            class="block px-4 py-2 text-base font-medium uppercase tracking-normal transition-colors hover:text-accent lg:mr-3"
+            class="senli-nav-link"
             href={`${mainSite}/#page-top`}
           >
             HOME
@@ -80,7 +80,7 @@ const mainSite = "https://antoniococan.github.io";
 
         <li>
           <a
-            class="block px-4 py-2 text-base font-medium uppercase tracking-normal transition-colors hover:text-accent lg:mr-3"
+            class="senli-nav-link"
             href={`${mainSite}/#publications`}
           >
             PUBLICATIONS
@@ -89,7 +89,7 @@ const mainSite = "https://antoniococan.github.io";
 
         <li>
           <a
-            class="block px-4 py-2 text-base font-medium uppercase tracking-normal transition-colors hover:text-accent lg:mr-3"
+            class="senli-nav-link"
             href={`${mainSite}/#talks`}
           >
             CONFERENCES &amp; TALKS
@@ -98,7 +98,7 @@ const mainSite = "https://antoniococan.github.io";
 
         <li>
           <a
-            class="block px-4 py-2 text-base font-medium uppercase tracking-normal transition-colors hover:text-accent lg:mr-3"
+            class="senli-nav-link"
             href={`${mainSite}/#teaching`}
           >
             TEACHING
@@ -107,7 +107,7 @@ const mainSite = "https://antoniococan.github.io";
 
         <li>
           <a
-            class="block px-3 py-2 text-sm font-semibold uppercase tracking-wide text-accent"
+            class="senli-nav-link text-accent"
             href={getRelativeLocaleUrl(locale, "")}
             aria-current="page"
           >
@@ -182,3 +182,85 @@ const mainSite = "https://antoniococan.github.io";
   toggleNav();
   document.addEventListener("astro:after-swap", toggleNav);
 </script>
+
+<style>
+  /* Sen Li navbar typography and layout */
+
+  #mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--background);
+    border-bottom: 2px solid #154734;
+    z-index: 10000;
+  }
+
+  .senli-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  @media (min-width: 576px) {
+    .senli-container {
+      max-width: 540px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .senli-container {
+      max-width: 720px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .senli-container {
+      max-width: min(1150px, 80vw);
+    }
+  }
+
+  /* Brand: Kanit, 20px, bold */
+
+  .senli-brand {
+    font-family: "Kanit", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: inherit;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--foreground);
+  }
+
+  .senli-brand:hover {
+    color: #154734;
+  }
+
+  /* Navigation: Mulish, 16px, weight 600 */
+
+  .senli-nav-link {
+    display: block;
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.5rem;
+    text-decoration: none;
+    white-space: nowrap;
+    color: var(--foreground);
+    transition: color 0.15s ease-in-out;
+  }
+
+  .senli-nav-link:hover {
+    color: #154734;
+  }
+
+  @media (min-width: 992px) {
+    .senli-nav-link {
+      margin-right: 1rem;
+    }
+  }
+</style>
