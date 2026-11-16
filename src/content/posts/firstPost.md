@@ -21,7 +21,7 @@ I am preparing for my defense. At the same time I am making preparations for my 
 
 ## Setting up my homepage
 
-I have coded my own websites before in HTML and CSS (a bit of JavaScript). But I'm mildly irritated about having to make sure that websites work for different screen sizes, different browsers, etc. So this time around I decided to take a template and modify it to my hearts content. I went with [Sen Li](https://github.com/senli1073/academic-homepage-template/)'s template and used the Harvard Crimson color. I've never coded a blogging system and since I don't have much time (nor interest!) to invest in doing so, I decided to incorporate a blogging system. For this I went with [AstroPaper](https://astro.build/themes/details/astropaper/) due to its minimalistic design.
+I have coded my own websites before in HTML and CSS (and a bit of JavaScript). But I'm mildly irritated about having to make sure that websites work for different screen sizes, different browsers, etc. So this time around I decided to take a template and modify it to my hearts content. I went with [Sen Li](https://github.com/senli1073/academic-homepage-template/)'s template and used the Harvard Crimson color. I've never coded a blogging system and since I don't have much time (nor interest!) to invest in doing so, I decided to incorporate a blogging system. For this I went with [AstroPaper](https://astro.build/themes/details/astropaper/) due to its minimalistic design.
 
 ## How to blog with AstroPaper
 
