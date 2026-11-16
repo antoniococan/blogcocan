@@ -121,6 +121,9 @@ const items = buildTocTree(headings);
 </script>
 
 <style is:global>
+:root {
+  --post-scroll-offset: 7rem;
+}
   .post-body {
     position: relative;
   }
@@ -200,8 +203,8 @@ const items = buildTocTree(headings);
   }
 .toc-side > nav {
   position: sticky;
-  top: 7rem;
-  max-height: calc(100dvh - 9rem);
+  top: var(--post-scroll-offset);
+  max-height: calc(100dvh - var(--post-scroll-offset) - 2rem);
   font-size: 0.875rem;
   line-height: 1.4;
 }
