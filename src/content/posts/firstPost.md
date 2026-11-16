@@ -3,7 +3,7 @@
 title: "My First Blog Post :)"
 author: "Antonio Cocan"
 pubDatetime: 2026-11-16T18:00:00Z
-description: "A short introduction to current life evens and how I set up this blog."
+description: "A short introduction to current life events and how I set up this blog."
 tags:
   - personal
   - mathematics
