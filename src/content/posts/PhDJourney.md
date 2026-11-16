@@ -4,7 +4,7 @@ title: "My PhD Journey (In Progress)"
 author: "Antonio Cocan"
 pubDatetime: 2026-11-16T22:00:00+02:00
 modDatetime: 2026-11-16T23:20:00+02:00
-description: "A documentation of my PhD journey."
+description: "A (brief) overview of my PhD journey."
 tags:
   - mathematics
   - research
@@ -14,7 +14,7 @@ featured: true
 draft: false
 ---
 
-This blog post is about a big part of my life and my academic journey: my journey as a PhD student! 
+This blog post is about a big part of my life and my career: my journey as a PhD student!
 
 ## Where it all began
 
