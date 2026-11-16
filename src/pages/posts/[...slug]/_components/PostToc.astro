@@ -57,7 +57,9 @@ const items = buildTocTree(headings);
     let frame = 0;
 
     // The active section is the last heading that has scrolled above this line.
-    const READING_LINE = 96;
+    const READING_LINE = parseFloat(
+  getComputedStyle(document.querySelector(".toc-side > nav")!).top
+) || 112;
 
     function update() {
       frame = 0;
