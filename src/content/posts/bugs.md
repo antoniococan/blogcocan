@@ -1,6 +1,6 @@
 
 ---
-title: "My PhD Journey (In Progress)"
+title: "Bugs!"
 author: "Antonio Cocan"
 pubDatetime: 2026-11-17T22:00:00+02:00
 modDatetime: 2026-11-17T23:00:10+02:00
