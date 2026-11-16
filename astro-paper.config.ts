@@ -17,7 +17,7 @@ export default defineAstroPaperConfig({
     perIndex: 4,
   },
   features: {
-    lightAndDarkMode: true,
+    lightAndDarkMode: false,
     dynamicOgImage: true,
     showArchives: true,
     showBackButton: true,
