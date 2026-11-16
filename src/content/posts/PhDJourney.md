@@ -14,7 +14,7 @@ featured: true
 draft: false
 ---
 
-This blog post is about a big part of my life and my career: my journey as a PhD student!
+This blog post is about a big part of my life and career: my journey as a PhD student!
 
 ## Where it all began
 
