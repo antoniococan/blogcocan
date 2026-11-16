@@ -82,7 +82,7 @@ const items = buildTocTree(headings);
 
         // Keep the active item in view when the TOC itself scrolls.
         const list = link.closest<HTMLElement>(
-          ":is(.toc-side, .toc-popover) nav > ol"
+          ":is(., .toc-popover) nav > ol"
         );
         if (isActive && list && list.scrollHeight > list.clientHeight) {
           const top = link.offsetTop - list.clientHeight / 2;
@@ -196,13 +196,13 @@ const items = buildTocTree(headings);
   .toc-side {
     display: none;
   }
-  .toc-side > nav {
-    position: sticky;
-    top: 2rem;
-    max-height: calc(100dvh - 4rem);
-    font-size: 0.875rem;
-    line-height: 1.4;
-  }
+.toc-side > nav {
+  position: sticky;
+  top: 7rem;
+  max-height: calc(100dvh - 9rem);
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
 
   .toc-back-to-top {
     display: flex;
