@@ -14,7 +14,7 @@
 /* Oxford green - Light theme */
 :root,
 [data-theme="light"] {
-  --background: #ffffff;
+  --background: #F7F3EF;
   --foreground: #282728;
 
   /* Oxford green */
