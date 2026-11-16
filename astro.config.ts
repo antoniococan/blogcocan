@@ -23,9 +23,8 @@ import {
 import config from "./astro-paper.config";
 
 export default defineConfig({
-  site: "https://antoniococan.github.io",
-  base: "/blogcocan",
   site: config.site.url,
+  base: "/blogcocan",
   integrations: [
     mdx(),
     sitemap({
