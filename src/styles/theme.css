@@ -1,3 +1,4 @@
+
 /* Register design tokens for Tailwind v4 */
 @theme inline {
   --color-background: var(--background);
@@ -10,25 +11,31 @@
   --font-app: var(--font-google-sans-code);
 }
 
-/* Light theme values */
+/* Oxford green - Light theme */
 :root,
 [data-theme="light"] {
-  --background: #fdfdfd;
+  --background: #ffffff;
   --foreground: #282728;
-  --accent: #006cac;
+
+  /* Oxford green */
+  --accent: #154734;
   --accent-foreground: #ffffff;
-  --muted: #e6e6e6;
-  --muted-foreground: #6b7280;
-  --border: #ece9e9;
+
+  --muted: #f1f4f2;
+  --muted-foreground: #64736a;
+  --border: #dce5df;
 }
 
-/* Dark theme values */
+/* Oxford green - Dark theme */
 [data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --accent-foreground: #ffffff;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #ab4b08;
+  --background: #17221c;
+  --foreground: #eaeee9;
+
+  /* Lighter green for visibility on dark backgrounds */
+  --accent: #70a88b;
+  --accent-foreground: #17221c;
+
+  --muted: #293b30;
+  --muted-foreground: #b1c1b6;
+  --border: #3b5545;
 }
