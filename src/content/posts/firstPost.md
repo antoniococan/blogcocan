@@ -2,7 +2,7 @@
 ---
 title: "My First Blog Post :)"
 author: "Antonio Cocan"
-pubDatetime: 2026-11-16T18:00:00Z
+pubDatetime: 2026-11-16T12:00:00+02:00
 description: "A short introduction to current life events and how I set up this blog."
 tags:
   - personal
