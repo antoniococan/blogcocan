@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&family=Kanit:ital,wght@0,400;1,400&display=swap");
+
 @import "tailwindcss";
 @import "./theme.css";
 @import "./typography.css";
@@ -36,4 +38,28 @@
 
 :target {
   scroll-margin-block: 1rem;
+}
+
+/* Sen Li typography */
+
+@layer base {
+  html,
+  body {
+    font-family: "Mulish", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+  }
+
+  .app-prose :is(h1, h2, h3, h4, h5, h6) {
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+  }
 }
