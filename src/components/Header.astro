@@ -29,13 +29,28 @@ const mainSite = "https://antoniococan.github.io";
 <header id="mainNav">
   <div class="senli-container">
 
-    <!-- Brand -->
-    <a
-      href={`${mainSite}/#page-top`}
-      class="senli-brand"
-    >
-      {site.title}
-    </a>
+    <!-- Brand + Search -->
+<div class="senli-brand-group">
+  <a
+    href={`${mainSite}/#page-top`}
+    class="senli-brand"
+  >
+    {site.title}
+  </a>
+
+  {
+    features.search !== false && (
+      <LinkButton
+        href={getRelativeLocaleUrl(locale, "search")}
+        class="focus-outline control-button search-brand"
+        title={t.nav.search}
+        aria-label={t.nav.search}
+      >
+        <IconSearch class="size-5" />
+      </LinkButton>
+    )
+  }
+</div>
 
     <!-- Mobile menu button -->
     <button
@@ -93,22 +108,6 @@ const mainSite = "https://antoniococan.github.io";
             BLOG
           </a>
         </li>
-
-        <!-- Search -->
-        {
-          features.search !== false && (
-            <li class="nav-control">
-              <LinkButton
-                href={getRelativeLocaleUrl(locale, "search")}
-                class="focus-outline control-button"
-                title={t.nav.search}
-                aria-label={t.nav.search}
-              >
-                <IconSearch class="size-6" />
-              </LinkButton>
-            </li>
-          )
-        }
 
         <!-- Dark/light theme -->
         {
@@ -198,6 +197,26 @@ const mainSite = "https://antoniococan.github.io";
 }
 
   /* Brand */
+
+/* Brand + Search */
+
+.senli-brand-group {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.search-brand {
+  width: 2rem;
+  height: 2rem;
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+.search-brand:hover {
+  color: #154734;
+}
 
   .senli-brand {
     display: inline-block;
