@@ -1,6 +1,6 @@
 
 ---
-title: "My First Blog Post :)"
+title: "My First Blog Post!"
 author: "Antonio Cocan"
 pubDatetime: 2026-11-16T21:37:00+02:00
 description: "A short introduction to current life events and how I set up this blog."
