@@ -2,8 +2,8 @@
 ---
 title: "My PhD Journey (In Progress)"
 author: "Antonio Cocan"
-pubDatetime: 2026-11-16T10:00:00+02:00
-modDatetime: 2026-11-16T10:37:00+02:00
+pubDatetime: 2026-11-16T22:00:00+02:00
+modDatetime: 2026-11-16T22:37:00+02:00
 description: "A documentation of my PhD journey."
 tags:
   - mathematics
