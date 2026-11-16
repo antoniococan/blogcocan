@@ -162,7 +162,7 @@ const mainSite = "https://antoniococan.github.io";
 </script>
 
 <style>
-  @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Mulish:wght@400;500;600;700&display=swap");
 
   /* Navbar */
 
@@ -171,7 +171,7 @@ const mainSite = "https://antoniococan.github.io";
     top: 0;
     width: 100%;
     z-index: 10000;
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     background-color: var(--background);
     border-bottom: 2px solid #154734;
     box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
@@ -191,35 +191,11 @@ const mainSite = "https://antoniococan.github.io";
     justify-content: space-between;
   }
 
-  @media (min-width: 576px) {
-    .senli-container {
-      max-width: 540px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .senli-container {
-      max-width: 720px;
-    }
-  }
-
   @media (min-width: 992px) {
-    .senli-container {
-      max-width: 960px;
-    }
+  .senli-container {
+    max-width: min(1150px, 80vw);
   }
-
-  @media (min-width: 1200px) {
-    .senli-container {
-      max-width: 1140px;
-    }
-  }
-
-  @media (min-width: 1400px) {
-    .senli-container {
-      max-width: 1320px;
-    }
-  }
+}
 
   /* Brand */
 
@@ -227,7 +203,7 @@ const mainSite = "https://antoniococan.github.io";
     display: inline-block;
     padding: 0.3125rem 0;
     margin-right: 1rem;
-    font-family: "Mulish", sans-serif;
+    font-family: "Kanit", sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: inherit;
@@ -281,7 +257,7 @@ const mainSite = "https://antoniococan.github.io";
     padding: 0.5rem 0;
     font-family: "Mulish", sans-serif;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.5;
     white-space: nowrap;
     text-decoration: none;
