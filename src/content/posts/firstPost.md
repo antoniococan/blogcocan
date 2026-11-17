@@ -28,3 +28,9 @@ I have coded my own websites before in HTML and CSS (and a bit of JavaScript). B
 ## How to blog with AstroPaper
 
 This section is mainly a reference for myself and is meant to be a short introduction to the basics of blogging with AstroPaper.
+
+### How to make new posts
+
+### Mathematics in posts
+
+You can use Latex to write mathematics in posts. For instance a famous equation is $e^{i \pi} + 1 = 0$.
