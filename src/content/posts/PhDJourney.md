@@ -3,7 +3,7 @@
 title: "My PhD Journey (In Progress)"
 author: "Antonio Cocan"
 pubDatetime: 2026-11-16T22:00:00+02:00
-modDatetime: 2026-11-17T23:03:02+02:00
+modDatetime: 2026-11-17T23:15:34+02:00
 description: "A (brief) overview of my PhD journey."
 tags:
   - academia
@@ -44,7 +44,7 @@ I then attended my first summer school which was in Jyväskylä. In December a y
 
 But those were not the highlights of my research travelings. Far from it. I went to Paris, France, for a summer school titled *Summer School in Microlocal and Probabilistic Methods in Geometry and Dynamics*. I was at the *Applied Inverse Problems Conference* in Göttingen, Germany. Finally I was ready to leave Europe for the first time in my life to Shanghai, China. I was going to the *International Conference on Inverse Problems Theory and Computation & International Summer School of Modern Mathematics – Inverse Problems* (now that's a mouthful!) at Fudan University. I remembered I was so nervous that I almost quit and wanted to cancel the trip due to anxiety of flying so long. But I maned up and it was one of the best trips. China is very beautiful! The food is amazing. The countryside is peaceful. But there's more!
 
-I was invited by Maarten de Hoop to Rice University in Houston, Texas, USA. It was always a dream of mine to visit the United States of America. I received my visa and off I went. The flight was from Helsinki to Miami and from Miami to Houston. To be continued...
+I was invited by Maarten de Hoop to Rice University in Houston Texas, USA. It was always a dream of mine to visit the United States of America. I received my visa and off I went. The flight was from Helsinki to Miami and from Miami to Houston. To be continued...
 
 However, it was not just travel and no work. To be continued...
 
