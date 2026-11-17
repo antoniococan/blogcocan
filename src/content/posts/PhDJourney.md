@@ -32,7 +32,7 @@ I think I applied to about fifty PhD positions and received about ten to fifteen
 
 ## The PhD era
 
-Proudly rejected Swansea University in Wales, the University of Vienna in Austria, and Stockholm University in Sweden -- just to name a few -- I was on my way to Jyväskylä in Finland to begin my PhD studies. To be continued...
+Having proudly rejected Swansea University in Wales, the University of Vienna in Austria, and Stockholm University in Sweden -- just to name a few -- I was on my way to Jyväskylä in Finland to begin my PhD studies. To be continued...
 
 ## Where I currently am
 
