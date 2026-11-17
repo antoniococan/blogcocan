@@ -42,13 +42,13 @@ The first year of grad school was dull: take courses. About two semesters worth 
 
 <figure>
   <img
-    src="/gunther70bday.webp"
+    src="../../assets/images/gunther70bday.webp"
     alt="Gunther celebrating his 70th birthday"
   />
   <figcaption>Celebrating Gunther's 70th birthday. A day to remember.</figcaption>
 </figure>
 
-![Gunther's 70th birthday](/gunther70bday.webp)
+![Gunther's 70th birthday](../../assets/images/gunther70bday.webp)
 
 ## Where the journey led
 
