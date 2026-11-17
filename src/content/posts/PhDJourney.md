@@ -54,7 +54,7 @@ I have been to three karonkka and I can tell you that it is an event that makes 
 
 ## Where the journey will lead
 
-Unknown so far... However, there are some uncertainties. For instance, [Artificial Intelligence (Ai) in mathematics](https://antoniococan.github.io/blogcocan/posts/aiinmaths/) is a threat to mathematicians which we need to take seriously rather sooner than later; especially governments need to get involved rapidly and develop protective measures.
+Unknown so far... However, there are some uncertainties. For instance, [Artificial Intelligence (AI) In Mathematics](https://antoniococan.github.io/blogcocan/posts/aiinmaths/) is a threat to mathematicians which we need to take seriously rather sooner than later; especially governments need to get involved rapidly and develop protective measures.
 
 ## Epilogue
 
