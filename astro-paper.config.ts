@@ -1,4 +1,6 @@
 import { defineAstroPaperConfig } from "./src/types/config";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
 
 export default defineAstroPaperConfig({
   site: {
