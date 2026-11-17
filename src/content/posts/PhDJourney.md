@@ -32,7 +32,7 @@ At university I made a big Big BIG blunder... I enrolled in business, economics,
 
 I remember that the first two courses I took at the masters level were Complex Analysis and Abstract Algebra II. Out of twenty-four students, only four of us passed. I was one of them. In fact, in my masters, I was a very good student. I suppose the independent learning and stubbornness to learn proofs and discover them myself was starting to pay off. Towards the end of my degree, I pivoted towards geometry -- differential and algebraic -- and eventually I wrote my thesis in algebraic geometry and algebraic number theory. I then started applying for PhD positions.
 
-I think I applied to about fifty PhD positions and received about ten to fifteen offers. I eventually decided to join the University of Jyväskylä. Jyväskylä... What a funny sounding place I've never heard about!
+I think I applied to about fifty PhD positions and received about ten to fifteen offers. I eventually decided to join the University of Jyväskylä. Jyväskylä... What a funny sounding place I never heard about!
 
 ## The PhD era
 
