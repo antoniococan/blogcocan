@@ -40,14 +40,6 @@ Having proudly rejected Swansea University in Wales, the University of Vienna in
 
 The first year of grad school was dull: take courses. About two semesters worth of courses. I attended courses in analysis, differential geometry, algebraic topology, and inverse problems. At the same time I was getting involved in research and was going on conferences! The first was Gunther Uhlmann's 70th birthday celebration conference *Inverse problems in analysis and geometry* in Helsinki in August 2022. This was the first conference I attended. Fun fact: Joonas' first conference attendance was Gunther's 60th birthday celebratory conference. The Gods of mathematics surely wanted us together! Nonetheless, here is a picture from that conference:
 
-<figure>
-  <img
-    src="../../assets/images/gunther70bday.webp"
-    alt="Gunther celebrating his 70th birthday"
-  />
-  <figcaption>Celebrating Gunther's 70th birthday. A day to remember.</figcaption>
-</figure>
-
 ![Gunther's 70th birthday](../../assets/images/gunther70bday.webp)
 
 ## Where the journey led
