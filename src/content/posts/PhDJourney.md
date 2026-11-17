@@ -16,7 +16,7 @@ draft: false
 
 This blog post is about a big part of my life and career: my journey as a PhD student! NOTE: There are still things to flesh out.
 
-## Where it all began & what it became
+## Where the journey began
 
 My early (significant) mathematical journey began perhaps in school at the age when kids learn how to divide numbers via long division (yes very significant!). I must've been eight or nine years old when I first became fascinated by mathematics. I recall that counting, addition, and multiplication were quite easy. Nothing to be fascinated by as a child! However, once we arrived at division, I was mesmerized. I can't particularly put into words what exactly it was about division, but I became obsessed. I recall vividly that I went home and was taking sheets of paper and simply doing long division all the time. Bigger and bigger numbers. I also recall that my head was very fatigued at first since it must've been very demanding to compute such things as a child. But this continuous exercising made me quite good at dividing numbers.
 
@@ -38,7 +38,7 @@ I think I applied to about fifty PhD positions and received about ten to fifteen
 
 Having proudly rejected Swansea University in Wales, the University of Vienna in Austria, and Stockholm University in Sweden -- just to name a few -- I was on my way to Jyväskylä in Finland to begin my PhD studies. To be continued...
 
-## Where I currently am
+## Where the journey led
 
 I sent my thesis for pre-examination this November. Currently I'm looking for postdoctoral positions. Meanwhile I'm preparing for my thesis defense and looking for [karonkka](#karonkka) venues.
 
