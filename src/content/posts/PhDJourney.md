@@ -70,5 +70,9 @@ Unknown so far... However, there are some uncertainties. For instance, jobs at u
 
 Furthermore, [Artificial Intelligence (AI) In Mathematics](https://antoniococan.github.io/blogcocan/posts/aiinmaths/) is a threat to mathematicians which we need to take seriously sooner rather than later; especially governments need to get involved rapidly and develop protective measures.
 
+I am also (very) slowly looking into jobs outside of academia. I'm currently in communication with the Finnish Air Force about jobs for mathematicians. We will see how that goes.
+
+For now, I want to do a postdoc for two to three years and then I will re-assess whether I remain in academia or not.
+
 ## Epilogue
 
