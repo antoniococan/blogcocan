@@ -6,8 +6,6 @@ pubDatetime: 2026-11-16T22:00:00+02:00
 modDatetime: 2026-11-17T23:03:02+02:00
 description: "A (brief) overview of my PhD journey."
 tags:
-  - mathematics
-  - research
   - academia
   - life
 featured: true
