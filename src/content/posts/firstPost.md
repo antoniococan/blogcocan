@@ -46,3 +46,10 @@ We can also use *display mathematics* formatting such as
 
 $$\zeta(s) = 2^{2} \pi^{s - 1} \sin(\frac{\pi s}{2})\Gamma(1 - s)\zeta(1 - s).$$
 
+This is done using:
+
+```Latex
+$$\zeta(s) = 2^{2} \pi^{s - 1} \sin(\frac{\pi s}{2})\Gamma(1 - s)\zeta(1 - s)$$
+```
+
+
