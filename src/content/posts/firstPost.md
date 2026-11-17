@@ -33,4 +33,4 @@ This section is mainly a reference for myself and is meant to be a short introdu
 
 ### Mathematics in posts
 
-You can use Latex to write mathematics in posts. For instance a famous equation is $e^{i \pi} + 1 = 0$.
+You can use $\LaTeX{}$ to write mathematics in posts. For instance a famous equation is $e^{i \pi} + 1 = 0$.
