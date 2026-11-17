@@ -50,7 +50,7 @@ However, it was not just travel and no work. To be continued...
 
 ## Where the journey led
 
-Currently I am at the end of my PhD journey and I sent my thesis for pre-examination this November. I am looking for postdoctoral positions by contacting mathematicians and on mathjosb[dot]org. Meanwhile I'm also preparing for my thesis defense and looking for [karonkka](#karonkka) venues.
+Currently I am at the end of my PhD journey and I sent my thesis for pre-examination this November. I am looking for postdoctoral positions by contacting mathematicians and on mathjobs[dot]org. Meanwhile I'm also preparing for my thesis defense and looking for [karonkka](#karonkka) venues.
 
 ## Thesis defense
 
