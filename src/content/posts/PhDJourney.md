@@ -3,7 +3,7 @@
 title: "My PhD Journey (In Progress)"
 author: "Antonio Cocan"
 pubDatetime: 2026-11-16T22:00:00+02:00
-modDatetime: 2026-11-17T23:15:34+02:00
+modDatetime: 2026-11-18T23:00:07+02:00
 description: "A (brief) overview of my PhD journey."
 tags:
   - academia
