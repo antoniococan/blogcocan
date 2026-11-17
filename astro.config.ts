@@ -1,3 +1,6 @@
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+
 import {
   defineConfig,
   envField,
@@ -46,10 +49,12 @@ export default defineConfig({
     // and are removed in v8.
     processor: unified({
       rehypePlugins: [
+        remarkMath,
         rehypeHeadingIds,
         rehypeInlineToc,
         rehypeCallouts,
         rehypeTableWrapper,
+        rehypeKatex,
       ],
     }),
     shikiConfig: {
