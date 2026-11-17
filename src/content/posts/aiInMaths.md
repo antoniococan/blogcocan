@@ -24,4 +24,8 @@ Tao's [post](https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-pl
 
 ## How worried am I?
 
-To be added...
+To be continued...
+
+## How I use AI
+
+I use AI as an assistant. I have a chat with various different models. It gives suggestions, sometimes ideas and then I investigate. As my advisor would say: trust but verify! To be continued...
