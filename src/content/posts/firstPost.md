@@ -7,6 +7,8 @@ description: "A short introduction to current life events and how I set up this 
 tags:
   - personal
   - mathematics
+  - life
+  - academia
 featured: false
 draft: false
 ---
