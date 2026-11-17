@@ -48,6 +48,8 @@ The first year of grad school was dull: take courses. About two semesters worth 
   <figcaption>Celebrating Gunther's 70th birthday. A day to remember.</figcaption>
 </figure>
 
+![Gunther's 70th birthday](/gunther70bday.webp)
+
 ## Where the journey led
 
 I sent my thesis for pre-examination this November. Currently I'm looking for postdoctoral positions. Meanwhile I'm preparing for my thesis defense and looking for [karonkka](#karonkka) venues.
