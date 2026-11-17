@@ -31,6 +31,8 @@ This section is mainly a reference for myself and is meant to be a short introdu
 
 ### How to make new posts
 
+All blog posts are stored in `src/content/posts/` and are given a *filename* such as `myFileName.md`.
+
 ### Mathematics in posts
 
 Setting up $\LaTeX{}$ was not as simple as turning a boolean value from false to true. I followed AstroPaper's blog post on this and had to install some dependencies and add some lines of code. It wasn't difficult but tedious. I wish these things would come out of the box nowadays!
