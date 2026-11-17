@@ -33,4 +33,6 @@ This section is mainly a reference for myself and is meant to be a short introdu
 
 ### Mathematics in posts
 
+Setting up $\LaTex{}$ was not as simple as turning a boolean value from false to true. I followed AstroPaper's blog post on this and had to install some dependencies and add some lines of code.
+
 You can use $\LaTeX{}$ to write mathematics in posts. For instance a famous equation is $e^{i \pi} + 1 = 0$.
