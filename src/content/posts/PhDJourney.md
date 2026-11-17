@@ -44,6 +44,12 @@ The first year of grad school was dull: take courses. About two semesters worth 
 
 I then attended my first summer school which was in Jyväskylä. In December a yearly tradition began: *Inverse Days*. The first Inverse Days I attended was in Kuopio; the second in Lahti; the third in Oulu; the fourth in Helsinki; and the fifth before graduation was in Jyväskylä! Poetic isn't it?
 
+But those were not the highlights of my research travelings. Far from it. I went to Paris, France for a summer school titled *Summer School in Microlocal and Probabilistic Methods in Geometry and Dynamics*. I was at the *Applied Inverse Problems Conference* in Göttingen, Germany. Finally I was ready to leave Europe for the first time in my life to Shanghai, China. I was going to the *International Conference on Inverse Problems Theory and Computation & International Summer School of Modern Mathematics – Inverse Problems* (now that's a mouthful!) at Fudan University. I remembered I was so nervous that I almost quit and wanted to cancel the trip due to anxiety of flying so long. But I maned up and it was one of the best trips. China is very beautiful! The food is amazing. The countryside is peaceful. But there's more!
+
+I was invited by Maarten de Hoop to Rice University in Houston, Texas, USA. It was always a dream of mine to visit the United States of America. I received my visa and off I went. The flight was from Helsinki to Miami and from Miami to Houston. To be continued...
+
+However, it was not just travel and no work. To be continued...
+
 ## Where the journey led
 
 I sent my thesis for pre-examination this November. Currently I'm looking for postdoctoral positions. Meanwhile I'm preparing for my thesis defense and looking for [karonkka](#karonkka) venues.
