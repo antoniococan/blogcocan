@@ -50,7 +50,7 @@ However, it was not just travel and no work. To be continued...
 
 ## Where the journey led
 
-I sent my thesis for pre-examination this November. Currently I'm looking for postdoctoral positions. Meanwhile I'm preparing for my thesis defense and looking for [karonkka](#karonkka) venues.
+Currently I am at the end of my PhD journey and I sent my thesis for pre-examination this November. I am looking for postdoctoral positions by contacting mathematicians and on mathjosb[dot]org. Meanwhile I'm also preparing for my thesis defense and looking for [karonkka](#karonkka) venues.
 
 ## Thesis defense
 
@@ -61,6 +61,8 @@ In early to mid January. But more on that experience later...
 A <mark style="background-color: #154734; color: #FFFFFF;">karonkka</mark> (Finnish: väitöskaronkka) is an academic tradition. It is a traditional Finnish academic celebration held after a doctoral dissertation defence. It marks the culmination of the doctoral journey and is traditionally organized by the newly graduated doctor in honour of the opponent — the academic who examined and challenged their dissertation.
 
 I have been to three karonkka and I can tell you that it is an event that makes grown men cry! But more on this later...
+
+Regarding the karonkka venue, it is most likely going to be at the *Viking Restaurant Harald*.
 
 ## Where the journey will lead
 
