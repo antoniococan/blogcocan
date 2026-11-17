@@ -44,9 +44,9 @@ In early to mid January. But more on that experience later ...
 
 ## Karonkka
 
-A <mark>karonkka</mark> (Finnish: väitöskaronkka) is an academic tradition. It is a traditional Finnish academic celebration held after a doctoral dissertation defence. It marks the culmination of the doctoral journey and is traditionally organized by the newly graduated doctor in honour of the opponent — the academic who examined and challenged their dissertation. I have been to three karonkka and I can tell you that it is an event that makes grown men cry!
+A <mark style="background-color: #d5dfd0; color: #333333;">karonkka</mark> (Finnish: väitöskaronkka) is an academic tradition. It is a traditional Finnish academic celebration held after a doctoral dissertation defence. It marks the culmination of the doctoral journey and is traditionally organized by the newly graduated doctor in honour of the opponent — the academic who examined and challenged their dissertation.
 
-But more on this later...
+I have been to three karonkka and I can tell you that it is an event that makes grown men cry! But more on this later...
 
 ## Where I'm going
 
