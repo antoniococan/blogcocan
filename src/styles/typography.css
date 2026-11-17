@@ -44,8 +44,10 @@
     }
 
     img {
-      @apply border-border mx-auto border;
-    }
+    @apply mx-auto border;
+    border-color: #344E41;
+    border-radius: 14px;
+  }
 
     img[role="button"] {
       @apply cursor-zoom-in;
