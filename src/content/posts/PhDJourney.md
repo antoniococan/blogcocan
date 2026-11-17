@@ -36,7 +36,7 @@ I think I applied to about fifty PhD positions and received about ten to fifteen
 
 ## Where I currently am
 
-I sent my thesis for pre-examination this November. Currently I'm looking for postdoctoral positions. Meanwhile I'm preparing for my thesis defense and looking for [karonkka →](#karonkka) venues.
+I sent my thesis for pre-examination this November. Currently I'm looking for postdoctoral positions. Meanwhile I'm preparing for my thesis defense and looking for [karonkka](#karonkka) venues.
 
 ## Thesis defense
 
