@@ -66,7 +66,7 @@ Regarding the karonkka venue, it is most likely going to be at the *Viking Resta
 
 ## Where the journey will lead
 
-Unknown so far... However, there are some uncertainties. For instance, jobs at universities for mathematicians are scarce, whereas the number of graduates is large (read: substantially larger than the available positions). But this is a feature (or rather a bug) of academia in general. Usually postdoctoral positions are available and since this will be my first postdoctoral position, I don't have to worry too much about obtaining a permanent position. That is a problem to be solved in the future!
+Unknown so far... However, there are some uncertainties. For instance, jobs at universities for mathematicians are scarce, whereas the number of graduates is large (read: substantially larger than the available positions). But this is a feature (or rather a bug) of academia in general. Usually postdoctoral positions are available and since this will be my first postdoctoral position, I don't have to worry too much about obtaining a permanent position. That is a problem to be solved in the future! At least it is solvable...
 
 Furthermore, [Artificial Intelligence (AI) In Mathematics](https://antoniococan.github.io/blogcocan/posts/aiinmaths/) is a threat to mathematicians which we need to take seriously sooner rather than later; especially governments need to get involved rapidly and develop protective measures.
 
