@@ -3,7 +3,7 @@
 title: "My PhD Journey (In Progress)"
 author: "Antonio Cocan"
 pubDatetime: 2026-11-16T22:00:00+02:00
-modDatetime: 2026-11-17T23:02:00+02:00
+modDatetime: 2026-11-17T23:03:02+02:00
 description: "A (brief) overview of my PhD journey."
 tags:
   - mathematics
@@ -52,9 +52,9 @@ A <mark style="background-color: #154734; color: #FFFFFF;">karonkka</mark> (Finn
 
 I have been to three karonkka and I can tell you that it is an event that makes grown men cry! But more on this later...
 
-## Where I'm going
+## Where the journey will lead
 
-Unknown so far ...
+Unknown so far... However, there are some uncertainties. For instance, [Artificial Intelligence (Ai) in mathematics](https://antoniococan.github.io/blogcocan/posts/aiinmaths/) is a threat to mathematicians.
 
 ## Epilogue
 
