@@ -12,7 +12,7 @@ featured: true
 draft: false
 ---
 
-This post is a collection of mathematical blogs and programming blogs -- mostly game programming and graphics programming. Some of these are not blogs but documentation pages or places where to learn that specific skill. This post is also a place for me to keep my resources structure since I am a very forgetful person when it comes to these things and I want to minimize the search time.
+This post is a collection of mathematical blogs and programming blogs -- mostly game programming and graphics programming. Some of these are not blogs but documentation pages or places where to learn that specific skill. This post is also a place for me to keep my resources structured since I am a very forgetful person when it comes to these things and I want to minimize the search time.
 
 ## Mathematics blogs
 
