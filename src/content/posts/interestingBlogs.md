@@ -16,9 +16,15 @@ This post is a collection of mathematical blogs and programming blogs -- mostly 
 
 ## Mathematics blogs
 
+General blogs.
+
 - [Terence Tao's blog](https://terrytao.wordpress.com/)
 - [Timothy Gower's blog](https://gowers.wordpress.com/)
 - [Francis Su's blog](https://francissu.substack.com/)
+
+Inverse problems.
+
+- [The Finnish Inverse Problems Society (FIPS)](https://fips.fi/)
 
 ## Programming blogs
 
