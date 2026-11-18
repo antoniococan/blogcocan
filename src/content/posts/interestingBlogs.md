@@ -22,11 +22,11 @@ This post is a collection of mathematical blogs and programming blogs -- mostly 
 
 ## Programming blogs
 
-For learning C++
+For learning C++.
 
 - [learncpp](https://www.learncpp.com/)
 
-For graphics programming:
+For graphics programming. I'm mostly interested in learning about graphics programming for video games purposes and for building a game engine.
 
 - [Learn OpenGL](https://learnopengl.com/)
 - [Learn Vulkan](https://docs.vulkan.org/spec/latest/index.html)
