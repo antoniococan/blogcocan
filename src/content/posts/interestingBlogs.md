@@ -11,7 +11,7 @@ featured: true
 draft: false
 ---
 
-This post is a collection of mathematical blogs and programming blogs -- mostly game programming and graphics programming.
+This post is a collection of mathematical blogs and programming blogs -- mostly game programming and graphics programming. Some of these are not blogs but documentation pages or places where to learn.
 
 ## Mathematics blogs
 
