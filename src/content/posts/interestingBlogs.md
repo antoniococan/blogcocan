@@ -26,7 +26,7 @@ For learning C++.
 
 - [learncpp](https://www.learncpp.com/)
 
-For graphics programming. I'm mostly interested in learning about graphics programming for video games purposes and for building a game engine.
+For graphics programming. I'm mostly interested in learning about graphics programming for video game purposes and for building a game engine.
 
 - [Learn OpenGL](https://learnopengl.com/)
 - [Learn Vulkan](https://docs.vulkan.org/spec/latest/index.html)
