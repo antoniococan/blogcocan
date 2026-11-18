@@ -11,4 +11,14 @@ featured: true
 draft: false
 ---
 
-This first post is an introduction of what's currently going on in my life, how I set up my [Terence Tao's blog](https://antoniococan.github.io/) and my [Timothy Gower's blog](https://antoniococan.github.io/blogcocan/); and mainly about how to blog with AstroPaper so that I have a place to fall back to.
+This post is a collection of mathematical blogs and programming blogs -- mostly game programming and graphics programming.
+
+## Mathematics blogs
+
+[Terence Tao's blog](https://antoniococan.github.io/)
+
+[Timothy Gower's blog](https://antoniococan.github.io/blogcocan/)
+
+## Programming blogs
+
+
