@@ -15,9 +15,9 @@ This post is a collection of mathematical blogs and programming blogs -- mostly 
 
 ## Mathematics blogs
 
-[Terence Tao's blog](https://antoniococan.github.io/)
+[Terence Tao's blog](https://terrytao.wordpress.com/)
 
-[Timothy Gower's blog](https://antoniococan.github.io/blogcocan/)
+[Timothy Gower's blog](https://gowers.wordpress.com/)
 
 ## Programming blogs
 
