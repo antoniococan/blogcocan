@@ -18,9 +18,11 @@ This blog post is about my personal thoughts on the effects of AI in mathematics
 
 ## AI in mathematics
 
-For now consider the [Mathematical AI Safety Institute](https://maisi.org/).
-Also read Gower's [post](https://gowers.wordpress.com/2026/10/16/how-worried-should-we-be-about-extinction-risk-from-ai/) and
-Tao's [post](https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/) and Su's [post](https://francissu.substack.com/p/love-of-humanity-is-not-enough).
+For now consider the [Mathematical AI Safety Institute](https://maisi.org/). Also read: 
+
+- Timothy Gower's [post](https://gowers.wordpress.com/2026/10/16/how-worried-should-we-be-about-extinction-risk-from-ai/)
+- Terence Tao's [post](https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/) and [AI views](https://teorth.github.io/tao-web/ai-views.html)
+- Francis Su's [post](https://francissu.substack.com/p/love-of-humanity-is-not-enough)
 
 ## How worried am I?
 
