@@ -3,6 +3,7 @@
 title: "Interesting Blogs"
 author: "Antonio Cocan"
 pubDatetime: 2026-11-18T16:54:00+02:00
+modDatetime: 2026-11-18T17:09:00+02:00
 description: "A list about blogs that I find interesting. Mathematical and pogramming."
 tags:
   - personal
