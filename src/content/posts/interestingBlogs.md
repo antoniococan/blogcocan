@@ -30,7 +30,8 @@ Inverse problems.
 
 For learning C++.
 
-- [learncpp](https://www.learncpp.com/)
+- [Learn Cpp](https://www.learncpp.com/) is a free website that teaches how to program in modern C++.
+- [Raylib](https://www.raylib.com/) is a simple and easy-to-use library to enjoy videogames programming. Can be used with various programming languages. I use it with C and C++.
 
 For graphics programming. I'm mostly interested in learning about graphics programming for video game purposes and for building a game engine.
 
