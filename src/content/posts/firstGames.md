@@ -52,7 +52,7 @@ int main()
   return 0;
 }
 ```
-The `game.hpp` contains the class `Game` with variables for the window width, window height, and the targeted frames per second (FPS). We then have the constructor and destructor and functions that have several different responsibilities:
+The first milestone is to open a window using Raylib. The `game.hpp` contains the class `Game` with variables for the window width, window height, and the targeted frames per second (FPS). We then have the constructor and destructor and functions that have several different responsibilities:
 
 - `void initialize()` is a function whose purpose is to initialize OpenGL context and set initial values for variables or similar functionalities.
 - `void update(float deltaTime)` is a function whose purpose is to update anything that is dependent on time, e.g. character movement, enemy movement, shooting.
@@ -87,12 +87,6 @@ class Game
         void close();
 
 };
-```
-
-The first milestone is to open a window using Raylib.
-
-```C++
-InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
 ```
 
 ## First game
