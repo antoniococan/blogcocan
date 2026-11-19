@@ -88,6 +88,80 @@ class Game
 
 };
 ```
+The `game.cpp` file looks like this:
+
+```C++
+#include "game.hpp"
+
+#include <print>
+#include "raylib.h"
+
+Game::Game()
+    : m_windowWidth {1200}
+    , m_windowHeight {1000}
+    , m_targetFPS {60}
+{
+    std::println("Game created.");
+}
+
+Game::~Game()
+{
+    std::println("Game destroyed.");
+}
+
+void Game::initialize()
+{
+    InitWindow(m_windowWidth, m_windowHeight, "Basic Window");
+    SetTargetFPS(m_targetFPS);
+}
+
+void Game::update(float deltaTime)
+{
+}
+
+void Game::draw()
+{
+    DrawText("BasicTemplate", 10.0f, 10.0f, 20.0f, MAROON);
+
+    const char *fpsText = 0;
+    fpsText = TextFormat("FPS: %i", GetFPS());
+    DrawText(fpsText, 10.0f, 40.0f, 20, MAROON);
+}
+
+void Game::loop()
+{
+    while(!WindowShouldClose())
+    {
+        float time = GetFrameTime();
+
+        update(time);
+
+        BeginDrawing();
+
+            ClearBackground(SKYBLUE);
+
+            draw();
+
+        EndDrawing();
+    }
+}
+
+void Game::run()
+{
+    std::println("Game running.");
+
+    initialize();
+
+    loop();
+
+    close();
+}
+
+void Game::close()
+{
+    CloseWindow();
+}
+```
 
 ## First game
 
