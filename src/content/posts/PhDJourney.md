@@ -12,7 +12,7 @@ featured: true
 draft: false
 ---
 
-This blog post is about a big part of my life and career: my journey as a PhD student! NOTE: This is still a work in progress.
+This blog post is about a big part of my life and career: my journey as a PhD student! NOTE: This is still a work in progress as I have not yet graduated. My expected graduation is in January or February 2027.
 
 ## Where the journey began
 
