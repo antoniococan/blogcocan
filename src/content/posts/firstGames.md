@@ -52,6 +52,43 @@ int main()
   return 0;
 }
 ```
+The `game.hpp` contains the class `Game` with variables for the window width, window height, and the targeted frames per second (FPS). We then have the constructor and destructor and functions that have several different responsibilities:
+
+- `void initialize()` is a function whose purpose is to initialize OpenGL context and set initial values for variables or similar functionalities.
+- `void update(float deltaTime)` is a function whose purpose is to update anything that is dependent on time, e.g. character movement, enemy movement, shooting.
+- `void draw()` is a function that simply draws to the screen, e.g. drawing character shapes or models, etc.
+- `void loop()` is the main game loop where all the functions come together in a sequential way.
+- `void run()` simply initializes, loops, and closes the game.
+- `void close()` is a function whose purpose is to close the window, close other resources, de-allocate resources, etc.
+
+Altogether the `game.hpp` file looks like this:
+
+```C++
+class Game
+{
+    private:
+
+        int m_windowWidth;
+        int m_windowHeight;
+        int m_targetFPS;
+
+    protected:
+
+    public:
+
+        Game();
+        ~Game();
+
+        void initialize();
+        void update(float deltaTime);
+        void draw();
+        void loop();
+        void run();
+        void close();
+
+};
+```
+
 
 ## Opening a window
 
