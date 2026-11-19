@@ -22,7 +22,7 @@ A few things before we get started. This is not a tutorial on how to program the
 
 In graphics programming, the y-axis is inverted to what we are used to from mathematics. This means that if we start at the origin on the y-axis, then moving down means that our values are positive and moving up means that our values are negative. Opposite to how the y-axis works in mathematics. This is important to keep in mind.
 
-## Setting up a project template
+## Setting up a project template & opening a window
 
 I like to use object oriented programming (OOP) with C++ and to separate tasks. For small projects like these this is not really needed, but I like to keep good practice. With that in mind, my `main()` function is going to be very minimal. All game related functionalities will be in a separate *class* called `Game`. So the basic folder structure will look like this:
 
@@ -88,9 +88,6 @@ class Game
 
 };
 ```
-
-
-## Opening a window
 
 The first milestone is to open a window using Raylib.
 
