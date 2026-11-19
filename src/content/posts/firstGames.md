@@ -2,8 +2,8 @@
 ---
 title: "First video games"
 author: "Antonio Cocan"
-pubDatetime: 2026-11-18T22:04:45+02:00
-modDatetime: 2026-11-18T23:04:47+02:00
+pubDatetime: 2026-11-19T22:04:45+02:00
+modDatetime: 2026-11-19T23:04:49+02:00
 description: "My first games with C++ and Raylib."
 tags:
   - game-programming
