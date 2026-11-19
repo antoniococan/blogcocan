@@ -28,3 +28,7 @@ InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
 
 ## First game
 
+For my first game I decided to do something very simple. I want to have a two-dimensional character which is cube shaped and can be controlled by WASD to move around the plane. I wanted the character to not be able to move out of the window bounds. Then I wanted a static (meaning not moving) disc shaped object. Upon collision with this object, the player wins the game. Very simple. Here is the result:
+
+## Second game
+
