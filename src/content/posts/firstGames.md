@@ -22,5 +22,9 @@ This blog post is about the first few games that I programmed using C++ and Rayl
 
 The first milestone is to open a window using Raylib.
 
+```C++
+InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
+```
+
 ## First game
 
