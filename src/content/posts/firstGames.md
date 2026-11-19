@@ -24,7 +24,7 @@ In graphics programming, the y-axis is inverted to what we are used to from math
 
 ## Setting up a project template & opening a window
 
-I like to use object oriented programming (OOP) with C++ and to separate tasks. For small projects like these this is not really needed, but I like to keep good practice. With that in mind, my `main()` function is going to be very minimal. All game related functionalities will be in a separate *class* called `Game`. So the basic folder structure will look like this:
+I like to use object oriented programming (OOP) with C++ and to separate tasks. For small projects like these this is not really needed, but I like to keep good practice. With that in mind, my `main()` function is going to be very minimal. All game related functionalities will be in a separate *class* called `Game`. The basic folder structure will look like this:
 
 ```text
 gameTemplate/
