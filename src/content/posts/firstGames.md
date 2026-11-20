@@ -171,6 +171,6 @@ For my first game I decided to do something very simple. I want to have a two-di
 
 ## Second game
 
-## 
+## Enhancing the basic template
 
 It is a good idea to have error handling. One can use the C++ standard library to print to the console using `<iostream>`. Or I could go on a side quest and program my own error handling. But instead of doing that, I'm going to use `spdlog` for error handling which is a fast C++ logging library. It can be found on Github [here](https://github.com/gabime/spdlog).
