@@ -22,6 +22,8 @@ A few things before we get started. This is not a tutorial on how to program the
 
 In graphics programming, the y-axis is inverted to what we are used to from mathematics. This means that if we start at the origin on the y-axis, then moving down means that our values are positive and moving up means that our values are negative. Opposite to how the y-axis works in mathematics. This is important to keep in mind.
 
+Lastly, I keep the projects as raw as possible, meaning that I have a game that I want to program and I finish that. Often times, one finds better ways to do something. I don't upload the polished or better solution simply because it would give the wrong impression of how the process of learning works. For instance, at first I did not use any error handling when creating the basic template. However, at the end of this post, I modified the basic template to include error handling.
+
 ## Setting up a project template & opening a window
 
 I like to use object oriented programming (OOP) with C++ and to separate tasks. For small projects like these this is not really needed, but I like to keep good practice. With that in mind, my `main()` function is going to be very minimal. All game related functionalities will be in a separate *class* called `Game`. The basic folder structure will look like this:
