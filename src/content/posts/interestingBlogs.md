@@ -26,6 +26,10 @@ Inverse problems.
 
 - [The Finnish Inverse Problems Society (FIPS)](https://fips.fi/)
 
+Intersting posts
+
+- Terence Tao's post [There’s more to mathematics than rigour and proofs](https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-rigour-and-proofs/) identifies three stages 
+
 ## Programming blogs
 
 For learning C++.
