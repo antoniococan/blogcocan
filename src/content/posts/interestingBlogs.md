@@ -28,7 +28,7 @@ Inverse problems.
 
 Intersting posts
 
-- Terence Tao's post [There’s more to mathematics than rigour and proofs](https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-rigour-and-proofs/) identifies three stages of mathematical education: *the pre-rigorous stage*, *the rigorous stage*, and *the post-rigorous stage*.
+- Terence Tao's post [There’s more to mathematics than rigour and proofs](https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-rigour-and-proofs/) identifies three stages of mathematical education: *the pre-rigorous stage*, *the rigorous stage*, and *the post-rigorous stage*. I am currently at the post-rigorous stage.
 
 ## Programming blogs
 
