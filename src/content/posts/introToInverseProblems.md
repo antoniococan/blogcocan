@@ -38,5 +38,5 @@ Consider the following forward problem: integration. Given a continuous real-val
 
 $$m(x) = \int_{0}^{x} f(t) dt \qquad 0 \leq x \leq 1.$$
 
-Its associated inverse problem is: differentiation. 
+Its associated inverse problem is: differentiation. In other words, given the accumulated integral $m$, can we determine the original function $f$?
 
