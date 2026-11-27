@@ -14,13 +14,13 @@ featured: true
 draft: true
 ---
 
-## Introduction
+# Introduction
 
 Most of the mathematics you have seen thus far runs forwards. Given initial conditions, solve a differential equation; given a mass distribution, compute its gravitational field; given a function, compute its integral.
 
 An inverse problem runs the other way. Instead of starting with a system and predicting what we would observe, we start with observations and try to reconstruct the underlying system, its properties, or the processes that produced them. In other words, rather than asking what effects a given cause produces, we ask what can be inferred about the cause from its effects.
 
-## Inverse problems
+# Inverse problems
 
 In 1902, Jacques Hadamard proposed three criteria that a well-behaved mathematical problem should satisfy. A problem is said to be well-posed if it satisfies all three:
 
