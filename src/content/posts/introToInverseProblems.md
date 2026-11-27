@@ -11,7 +11,7 @@ tags:
   - inverse-problems
   - exposition
 featured: true
-draft: false
+draft: true
 ---
 
 # Introduction
@@ -34,9 +34,9 @@ Inverse problems are frequently ill-posed: solutions may not exist, may not be u
 
 ## A first example: differentiation
 
-Consider the following forward problem: integration. Given a continuous real-valued function $f \colon [0, 1] \rightarrrow{} \mathbb{R}$, compute its integral
+Consider the following forward problem: integration. Given a continuous real-valued function $f \colon [a, b] \rightarrrow{} \mathbb{R}$, compute its integral
 
-$$m(x) = \int_{0}^{x} f(t) dt \qquad 0 \leq x \leq 1.$$
+$$m(x) = \int_{a}^{x} f(t) dt \qquad a \leq x \leq b.$$
 
-Its associated inverse problem is: differentiation. In other words, given the accumulated integral $m$, can we determine the original function $f$?
+Its associated inverse problem is: differentiation. In other words, given the accumulated integral $m$, can we determine the original function $f$? The *Fundamental Theorem of Calculus* tells us that the answer is *yes*, at least when $f$ is continuous. In particular, the first part of the Fundamental Theorem of Calculus states that if $f$ is continuous 
 
