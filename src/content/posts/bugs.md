@@ -8,7 +8,7 @@ description: "Known issues/bugs with the blog."
 tags:
   - bugs
 featured: true
-draft: false
+draft: true
 ---
 
 Here I gather some known bugs with this blog.
