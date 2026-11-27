@@ -17,48 +17,40 @@ export default function remarkTheorem() {
     function visit(node) {
       if (!node.children) return;
 
-      for (let i = 0; i < node.children.length; i++) {
-        const child = node.children[i];
-
+      for (const child of node.children) {
         if (
           child.type === "containerDirective" &&
           environments[child.name]
         ) {
-          counter++;
-
+          const number = ++counter;
           const name = environments[child.name];
 
-          node.children[i] = {
-            type: "mdxJsxFlowElement",
-            name: "div",
-            attributes: [
-              {
-                type: "mdxJsxAttribute",
-                name: "className",
-                value: `theorem-env theorem-${child.name}`,
-              },
+          child.data = child.data || {};
+          child.data.hName = "div";
+          child.data.hProperties = {
+            className: [
+              "theorem-env",
+              `theorem-${child.name}`,
             ],
+          };
+
+          child.children.unshift({
+            type: "paragraph",
             children: [
               {
-                type: "paragraph",
+                type: "strong",
                 children: [
                   {
-                    type: "strong",
-                    children: [
-                      {
-                        type: "text",
-                        value: `${name} ${counter}.`,
-                      },
-                    ],
+                    type: "text",
+                    value: `${name} ${number}`,
                   },
                 ],
               },
-              ...child.children,
             ],
-          };
+          });
         }
 
-        visit(node.children[i]);
+        visit(child);
       }
     }
 
