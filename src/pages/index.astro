@@ -24,10 +24,11 @@ const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
 const topics = [
-  { name: "Mathematics", tag: "mathematics", limit: 5 },
-  { name: "Analysis", tag: "analysis", limit: 5 },
-  { name: "Algebra", tag: "algebra", limit: 5 },
-  { name: "Programming", tag: "programming", limit: 5 },
+  { name: "Mathematics", tag: "mathematics", icon: "bi-calculator", limit: 5 },
+  { name: "Analysis", tag: "analysis", icon: "bi-graph-up", limit: 5 },
+  { name: "Algebra", tag: "algebra", icon: "bi-superscript", limit: 5 },
+  { name: "Programming", tag: "programming", icon: "bi-code-slash", limit: 5 },
+  { name: "Physics", tag: "physics", icon: "bi-atom", limit: 5 },
 ];
 
 const homePath = getRelativeLocaleUrl(locale, "");
