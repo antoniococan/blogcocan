@@ -58,7 +58,7 @@ $$
 
 Let us now see if this inverse problem is well-posed according to Hadamard's three criteria listed above.
 
-1. *Existence:* Does a solution exist? That is, given $m(x) = \int_{a}^{x} f(t) dt$, does there exist $f$ such that $m(x) = f(x)$? By the Fundamental Theorem of Calculus we have that $int_{a}^{x} f(t) dt = \int_{a}^{x} m'(t) dt = m(x) - m(a)$. Thus if $m(a) = 0$, then a solution exists.
+1. *Existence:* Does a solution exist? That is, given $m(x) = \int_{a}^{x} f(t) dt$, does there exist $f$ such that $m(x) = f(x)$? By the Fundamental Theorem of Calculus we have that $\int_{a}^{x} f(t) dt = \int_{a}^{x} m'(t) dt = m(x) - m(a)$. Thus if $m(a) = 0$, then a solution exists.
 2. *Uniqueness:* Is the solution unique? Suppose that we have two continuous functions $f_1$ and $f_2$ solving the inverse problem. Then $\int_{a}^{x} f_1(t) dt = \int_{a}^{x} f_2(t) dt$. Differentiating both sides and applying the Fundamental Theorem of Calculus yields $f_1(x) = f_2(x)$. Thus, there cannot be two different solutions producing the same data. The solution is unique.
 3. *Stability:* Does the solution depend continuously on the data? 
 
