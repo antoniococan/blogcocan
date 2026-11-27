@@ -31,3 +31,8 @@ In 1902, Jacques Hadamard proposed three criteria that a well-behaved mathematic
 A problem that fails to satisfy one or more of these criteria is called *ill-posed*.
 
 Inverse problems are frequently ill-posed: solutions may not exist, may not be unique, or may depend very sensitively on the observations. Hadamard himself regarded well-posedness as an essential requirement for problems arising in physics, viewing ill-posed problems as largely artificial mathematical constructions. The development of inverse-problem theory would eventually demonstrate just how important such problems are in practice.
+
+## A first example: differentiation
+
+Consider the following forward problem: Given a real-valued function $f$, compute its integral $\int f$.
+
