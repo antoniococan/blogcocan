@@ -6,6 +6,7 @@ const environments = {
   proposition: "Proposition",
   definition: "Definition",
   example: "Example",
+  examples: "Example",
   remark: "Remark",
   conjecture: "Conjecture",
 };
