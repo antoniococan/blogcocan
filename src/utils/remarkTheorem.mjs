@@ -24,6 +24,7 @@ export default function remarkTheorem() {
         ) {
           const number = ++counter;
           const name = environments[child.name];
+          const title = child.attributes?.title;
 
           child.data = child.data || {};
           child.data.hName = "div";
@@ -34,6 +35,10 @@ export default function remarkTheorem() {
             ],
           };
 
+          const heading = `${name} ${number}${
+            title ? ` (${title})` : ""
+          }`;
+
           child.children.unshift({
             type: "paragraph",
             children: [
@@ -42,7 +47,7 @@ export default function remarkTheorem() {
                 children: [
                   {
                     type: "text",
-                    value: `${name} ${number}`,
+                    value: heading,
                   },
                 ],
               },
