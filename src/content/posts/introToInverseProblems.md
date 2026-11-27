@@ -34,9 +34,9 @@ Inverse problems are frequently ill-posed: solutions may not exist, may not be u
 
 ## A first example: differentiation
 
-Consider the following forward problem: integration. Given a continuous real-valued function $f \colon [a, b] \rightarrrow \mathbb{R}$, compute its integral
+Consider the following forward problem: integration. Given a continuous real-valued function $f \colon [0, 1] \rightarrrow{} \mathbb{R}$, compute its integral
 
 $$m(x) = \int_{0}^{x} f(t) dt \qquad 0 \leq x \leq 1.$$
 
-Its associated inverse problem is: differentiation
+Its associated inverse problem is: differentiation. 
 
