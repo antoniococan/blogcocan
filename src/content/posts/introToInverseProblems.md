@@ -11,7 +11,7 @@ tags:
   - inverse-problems
   - exposition
 featured: true
-draft: true
+draft: false
 ---
 
 # Introduction
@@ -39,4 +39,9 @@ Consider the following forward problem: integration. Given a continuous real-val
 $$m(x) = \int_{a}^{x} f(t) dt \qquad a \leq x \leq b.$$
 
 Its associated inverse problem is: differentiation. In other words, given the accumulated integral $m$, can we determine the original function $f$? The *Fundamental Theorem of Calculus* tells us that the answer is *yes*, at least when $f$ is continuous. In particular, the first part of the Fundamental Theorem of Calculus states that if $f$ is continuous 
+
+::: theorem{title="Bolzano–Weierstrass"}
+Every bounded sequence in $\mathbb{R}$ has a
+convergent subsequence.
+:::
 
