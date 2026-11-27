@@ -1,5 +1,7 @@
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
+import remarkDirective from "remark-directive";
+import remarkTheorem from "./src/utils/remarkTheorem.mjs";
 
 import {
   defineConfig,
@@ -43,32 +45,34 @@ export default defineConfig({
       prefixDefaultLocale: false,
     },
   },
-  markdown: {
-    // Deprecated: the theme no longer uses remark-toc or remark-collapse. They
-    // stay in package.json so a customised config importing them still builds,
-    // and are removed in v8.
-    processor: unified({
-      rehypePlugins: [
-        remarkMath,
-        rehypeHeadingIds,
-        rehypeInlineToc,
-        rehypeCallouts,
-        rehypeTableWrapper,
-        rehypeKatex,
-      ],
-    }),
-    shikiConfig: {
-      themes: { light: "min-light", dark: "night-owl" },
-      defaultColor: false,
-      wrap: false,
-      transformers: [
-        transformerFileName({ style: "v2", hideDot: false }),
-        transformerNotationHighlight(),
-        transformerNotationWordHighlight(),
-        transformerNotationDiff({ matchAlgorithm: "v3" }),
-      ],
-    },
+markdown: {
+  // Deprecated: the theme no longer uses remark-toc or remark-collapse.
+  processor: unified({
+    remarkPlugins: [
+      remarkMath,
+      remarkDirective,
+      remarkTheorem,
+    ],
+    rehypePlugins: [
+      rehypeHeadingIds,
+      rehypeInlineToc,
+      rehypeCallouts,
+      rehypeTableWrapper,
+      rehypeKatex,
+    ],
+  }),
+  shikiConfig: {
+    themes: { light: "min-light", dark: "night-owl" },
+    defaultColor: false,
+    wrap: false,
+    transformers: [
+      transformerFileName({ style: "v2", hideDot: false }),
+      transformerNotationHighlight(),
+      transformerNotationWordHighlight(),
+      transformerNotationDiff({ matchAlgorithm: "v3" }),
+    ],
   },
+},
   vite: {
     plugins: [tailwindcss()],
   },
