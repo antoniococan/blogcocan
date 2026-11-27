@@ -91,12 +91,12 @@ Imagine that we have a metal plate. We heat the plate and observe how its temper
 
 1. Different parts of the plate can have different temperatures.
 2. The temperature changes over time.
-3. Heat travels from hotter regions to colder regions.
+3. Experimentally, we observe that thermal energy is transferred from the hotter region to the colder region. This is the phenomenon of *heat conduction*.
 4. Eventually, if the plate is isolated and allowed to settle, its temperature tends toward equilibrium.
 
 We are going to use these physical observations to model the above physical phenomenon. The metal plate is an object that lives in three space $\mathbb{R}^{3}$ but is two-dimensional. Let us call the region that our metal plate occupies $\Omega \subseteq \mathbb{R}^{2}$. In particular this means that in order to describe a point on $\Omega$ we need two coordinates, which we denote by $x = (x_1, x_2)$.
 
-Our goal is to measure the temperature which we call $u$. Since temperature is a real number, we must have $u \in \mathbb{R}$. Since we observed that different parts of the plate can have different temperatures, we know that temperature changes with position and hence we need a *position variable* $x = (x_1, x_2) \in \Omega$. We also observed that temperature changes over time, meaning that mathematically, $u$ is also a function of time $t$. We assume that we cannot go back in time and that time is finite, i.e. bounded above by some real number $T$. Thus $t \in [0, T]$. Putting all the observe physical assumptions together shows that $u$ us a function $u \colon [0, T] \times \Omega \rightarrow \mathbb{R}$.
+Our goal is to measure the temperature which we call $u$. Since temperature is a real number, we must have $u \in \mathbb{R}$. Since we observed that different parts of the plate can have different temperatures, we know that temperature changes with position and hence we need a *position variable* $x = (x_1, x_2) \in \Omega$. We also observed that temperature changes over time, meaning that mathematically, $u$ is also a function of *time* $t$. We assume that we cannot go back in time and that time is finite, i.e. bounded above by some real number $T$. Thus $t \in [0, T]$. Putting all the observed physical assumptions together shows that $u$ us a function $u \colon [0, T] \times \Omega \rightarrow \mathbb{R}$.
 
 ## X-Ray tomography
 
