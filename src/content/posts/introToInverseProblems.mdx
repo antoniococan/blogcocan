@@ -29,13 +29,16 @@ The notion of an *inverse problem* is vague and difficult to define. However, we
 config:
   layout: grid
   grid:
-    rowGap: 80
-    columnGap: 120
+    placements:
+      D: { row: 1, column: 1 }
+      S: { row: 1, column: 2 }
+    rowGap: 90
+    columnGap: 140
     curve: linear
 ---
 flowchart TB
-    D["Data"]@{ row: 1, column: 1 }
-    S["Solution"]@{ row: 1, column: 2 }
+    D["Data"]
+    S["Solution"]
 
     D -->|Forward problem| S
     S -->|Inverse problem| D
