@@ -102,8 +102,9 @@ Next, we will model the phenomenon of heat conduction, i.e. that thermal energy 
 
 $$
 \begin{cases}
-a & if x > 0 \\
-b & if x < 0.
+\textbf{Evolution equation} & u(t, x) = \Delta u(t, x) & (t, x) \in (0, T) \times \Omega, \\
+\textbf{Initial condition} & u(0, x) = u_{0}(x) & x \in \Omega, \\
+\textbf{Boundary condition} & \partial_{n} u(t, x) = 0 & (t, x) \in (0, T) \times \partial \Omega.
 \end{cases}
 $$
 
