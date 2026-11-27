@@ -22,7 +22,7 @@ An inverse problem runs the other way. Instead of starting with a system and pre
 
 In 1902 Jacques Hadamard proposed three properties that a reasonable mathematical problem should have. Inverse problems usually lack the third, and often the first two as well. Hadamard called the problem *well-posed* if
 
-1. *Existence:* there exists a solution
+1. *Existence:* there exists a solution.
 2. *Uniqueness:* there is at most one solution.
 3. *Stability:* the solution depends continuously on .
 
