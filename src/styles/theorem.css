@@ -74,6 +74,12 @@
   border-left-color: #b18a43;
 }
 
+.theorem-examples {
+  background: #faf4e8;
+  border-color: #eadfc5;
+  border-left-color: #b18a43;
+}
+
 /* =========================================
    REMARKS
    ========================================= */
@@ -105,6 +111,12 @@ html[data-theme="dark"] .theorem-definition {
 }
 
 html[data-theme="dark"] .theorem-example {
+  background: #342d20;
+  border-color: #51442c;
+  border-left-color: #c3a36a;
+}
+
+html[data-theme="dark"] .theorem-examples {
   background: #342d20;
   border-color: #51442c;
   border-left-color: #c3a36a;
