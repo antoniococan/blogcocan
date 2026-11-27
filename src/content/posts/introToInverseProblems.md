@@ -24,7 +24,7 @@ In 1902 Jacques Hadamard proposed three properties that a reasonable mathematica
 
 1. *Existence:* there exists a solution.
 2. *Uniqueness:* there is at most one solution.
-3. *Stability:* the solution depends continuously on .
+3. *Stability:* the solution depends continuously on the data.
 
 A problem that is not well-posed is *ill-posed*. Hadamard believed that problems coming from physics are always well-posed, and that ill-posed ones are mathematical curiosities. 
 
