@@ -1,0 +1,117 @@
+
+/* =========================================
+   MATHEMATICAL ENVIRONMENTS
+   ========================================= */
+
+/* Shared box styling */
+
+.theorem-env {
+  margin: 1.75rem 0;
+  padding: 1.1rem 1.35rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid;
+  border-radius: 7px;
+  line-height: 1.75;
+}
+
+/* Environment heading */
+
+.theorem-env > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Last paragraph */
+
+.theorem-env > :last-child {
+  margin-bottom: 0;
+}
+
+/* =========================================
+   THEOREMS, LEMMAS, COROLLARIES
+   ========================================= */
+
+.theorem-theorem,
+.theorem-lemma,
+.theorem-corollary,
+.theorem-proposition,
+.theorem-conjecture {
+  background: #edf5ef;
+  border-color: #c9ddce;
+  border-left-color: #39734e;
+  font-style: italic;
+}
+
+/* Headings remain upright */
+
+.theorem-theorem > p:first-child,
+.theorem-lemma > p:first-child,
+.theorem-corollary > p:first-child,
+.theorem-proposition > p:first-child,
+.theorem-conjecture > p:first-child {
+  font-style: normal;
+}
+
+/* =========================================
+   DEFINITIONS
+   ========================================= */
+
+.theorem-definition {
+  background: #eef3fa;
+  border-color: #cfdaeb;
+  border-left-color: #5276a5;
+}
+
+/* =========================================
+   EXAMPLES
+   ========================================= */
+
+.theorem-example {
+  background: #faf4e8;
+  border-color: #eadfc5;
+  border-left-color: #b18a43;
+}
+
+/* =========================================
+   REMARKS
+   ========================================= */
+
+.theorem-remark {
+  background: #f3eff7;
+  border-color: #ded3e9;
+  border-left-color: #80649c;
+}
+
+/* =========================================
+   DARK MODE
+   ========================================= */
+
+html[data-theme="dark"] .theorem-theorem,
+html[data-theme="dark"] .theorem-lemma,
+html[data-theme="dark"] .theorem-corollary,
+html[data-theme="dark"] .theorem-proposition,
+html[data-theme="dark"] .theorem-conjecture {
+  background: #1d3026;
+  border-color: #344e3c;
+  border-left-color: #75a88a;
+}
+
+html[data-theme="dark"] .theorem-definition {
+  background: #222d3e;
+  border-color: #384a63;
+  border-left-color: #7899c5;
+}
+
+html[data-theme="dark"] .theorem-example {
+  background: #342d20;
+  border-color: #51442c;
+  border-left-color: #c3a36a;
+}
+
+html[data-theme="dark"] .theorem-remark {
+  background: #30283a;
+  border-color: #483b57;
+  border-left-color: #a48cbd;
+}
