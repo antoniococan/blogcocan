@@ -40,7 +40,9 @@ $$
 A(f(x)) = \int_{a}^{x} f(t) dt \qquad a \leq x \leq b.
 $$
 
-We can model $A$ as an operator between spaces such that $A \colon C([a, b]) \rightarrow C([a, b]),$ where $C([a, b])$ is the collection of all continuous real-valued functions $[a, b] \rightarrow \mathbb{R}$. Its associated inverse problem is the following. Given the accumulated integral $m$, can we determine the original function $f$? The *Fundamental Theorem of Calculus* tells us that the answer is *yes*, at least when $f$ is continuous.
+We can model $A$ as an operator between spaces such that $A \colon C([a, b]) \rightarrow C([a, b]),$ where $C([a, b])$ is the collection of all continuous real-valued functions $[a, b] \rightarrow \mathbb{R}$.
+
+Its associated inverse problem is the following. Given the accumulated integral $A(f(x))$, can we determine the original function $f$? That is, we want to invert the operator $A$: given some $g$, we need to find some $f$ such that $Af = g$. In order to do this, we will need the *Fundamental Theorem of Calculus*.
 
 :::theorem{title="Fundamental Theorem of Calculus - Part 1"}
 
