@@ -34,7 +34,9 @@ Inverse problems are frequently ill-posed: solutions may not exist, may not be u
 
 ### A first example: differentiation
 
-Consider the following forward problem: integration. Given a continuous real-valued function $f \colon [a, b] \rightarrow \mathbb{R}$, compute its integral
+Consider the following forward problem: integration. Let $A$ be the forward operator which takes a continuous real-valued function $f \colon [a, b] \rightarrow \mathbb{R}$ to its integral. We can model $A$ as an operator between spaces such $A \colon C([a, b]) \rightarrow C([a, b])$
+
+Given , compute its integral
 
 $$
 m(x) = \int_{a}^{x} f(t) dt \qquad a \leq x \leq b.
@@ -47,6 +49,7 @@ Its associated inverse problem is the following. Given the accumulated integral 
 Let $f \colon [a, b] \rightarrow \mathbb{R}$ be continuous. Let $F$ be the function defined for all $x \in [a, b]$ by
 
 $$
+\tag{1}
 F(x) = \int_{a}^{x} f(t) dt.
 $$
 
@@ -65,6 +68,10 @@ Let us now see if this inverse problem is well-posed according to Hadamard's thr
 1. *Existence:* Does a solution exist? That is, given $m(x) = \int_{a}^{x} f(t) dt$, does there exist $f$ such that $m(x) = f(x)$? By the Fundamental Theorem of Calculus we have that $\int_{a}^{x} f(t) dt = \int_{a}^{x} m'(t) dt = m(x) - m(a)$. Thus if $m(a) = 0$, then a solution exists.
 2. *Uniqueness:* Is the solution unique? Suppose that we have two continuous functions $f_1$ and $f_2$ solving the inverse problem. Then $\int_{a}^{x} f_1(t) dt = \int_{a}^{x} f_2(t) dt$. Differentiating both sides and applying the Fundamental Theorem of Calculus yields $f_1(x) = f_2(x)$. Thus, there cannot be two different solutions producing the same data. The solution is unique.
 3. *Stability:* Does the solution depend continuously on the data? 
+
+### X-Ray tomography
+
+### Parameter identification in PDEs
 
 ## Summary
 
