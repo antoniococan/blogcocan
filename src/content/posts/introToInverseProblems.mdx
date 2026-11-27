@@ -25,9 +25,17 @@ An inverse problem runs the other way. Instead of starting with a system and pre
 The notion of an *inverse problem* is vague and difficult to define. However, we can build a mental model of what we mean by an inverse problem. First, let us consider a (forward) problem: we have some given *data* and we seek some unkown *solution*. In practice, solving a problem means that we take the known data, perform some mathematics on it, and arrive at a solution. An inverse problem reverse this process: we have some solution and we seek the corresponding data.
 
 ```mermaid
-flowchart LR
-    D["Data"] -->|"Forward problem"| S["Solution"]
+flowchart TB
+    subgraph row[" "]
+        direction LR
+        D["Data"]
+        S["Solution"]
+    end
+
+    D -->|"Forward problem"| S
     S -->|"Inverse problem"| D
+
+    style row fill:none,stroke:none
 ```
 
 In 1902, Jacques Hadamard proposed three criteria that a well-behaved mathematical problem should satisfy. A problem is said to be *well-posed* if it satisfies all of the following three criteria:
