@@ -33,10 +33,10 @@ export default defineConfig({
   base: "/blogcocan",
   integrations: [
     mermaid({
-    theme: "default",
-    autoTheme: true,
-    enableLog: false,
-  }),
+      theme: "default",
+      autoTheme: true,
+      enableLog: false,
+    }),
     mdx(),
     sitemap({
       filter: page =>
@@ -51,34 +51,30 @@ export default defineConfig({
       prefixDefaultLocale: false,
     },
   },
-markdown: {
-  // Deprecated: the theme no longer uses remark-toc or remark-collapse.
-  processor: unified({
-    remarkPlugins: [
-      remarkMath,
-      remarkDirective,
-      remarkTheorem,
-    ],
-    rehypePlugins: [
-      rehypeHeadingIds,
-      rehypeInlineToc,
-      rehypeCallouts,
-      rehypeTableWrapper,
-      rehypeKatex,
-    ],
-  }),
-  shikiConfig: {
-    themes: { light: "min-light", dark: "night-owl" },
-    defaultColor: false,
-    wrap: false,
-    transformers: [
-      transformerFileName({ style: "v2", hideDot: false }),
-      transformerNotationHighlight(),
-      transformerNotationWordHighlight(),
-      transformerNotationDiff({ matchAlgorithm: "v3" }),
-    ],
+  markdown: {
+    // Deprecated: the theme no longer uses remark-toc or remark-collapse.
+    processor: unified({
+      remarkPlugins: [remarkMath, remarkDirective, remarkTheorem],
+      rehypePlugins: [
+        rehypeHeadingIds,
+        rehypeInlineToc,
+        rehypeCallouts,
+        rehypeTableWrapper,
+        rehypeKatex,
+      ],
+    }),
+    shikiConfig: {
+      themes: { light: "min-light", dark: "night-owl" },
+      defaultColor: false,
+      wrap: false,
+      transformers: [
+        transformerFileName({ style: "v2", hideDot: false }),
+        transformerNotationHighlight(),
+        transformerNotationWordHighlight(),
+        transformerNotationDiff({ matchAlgorithm: "v3" }),
+      ],
+    },
   },
-},
   vite: {
     plugins: [tailwindcss()],
   },
