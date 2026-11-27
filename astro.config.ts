@@ -2,6 +2,7 @@ import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import remarkDirective from "remark-directive";
 import remarkTheorem from "./src/utils/remarkTheorem.mjs";
+import mermaid from "astro-mermaid";
 
 import {
   defineConfig,
@@ -31,6 +32,11 @@ export default defineConfig({
   site: config.site.url,
   base: "/blogcocan",
   integrations: [
+    mermaid({
+    theme: "default",
+    autoTheme: true,
+    enableLog: false,
+  }),
     mdx(),
     sitemap({
       filter: page =>
