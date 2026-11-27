@@ -22,6 +22,14 @@ const posts = await getCollection("posts");
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+
+const topics = [
+  { name: "Mathematics", tag: "mathematics", limit: 5 },
+  { name: "Analysis", tag: "analysis", limit: 5 },
+  { name: "Algebra", tag: "algebra", limit: 5 },
+  { name: "Programming", tag: "programming", limit: 5 },
+];
+
 const homePath = getRelativeLocaleUrl(locale, "");
 ---
 
