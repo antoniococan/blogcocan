@@ -62,20 +62,6 @@ Let us now see if this inverse problem is well-posed according to Hadamard's thr
 2. *Uniqueness:* Is the solution unique? Suppose that we have two continuous functions $f_1$ and $f_2$ solving the inverse problem. Then $\int_{a}^{x} f_1(t) dt = \int_{a}^{x} f_2(t) dt$. Differentiating both sides and applying the Fundamental Theorem of Calculus yields $f_1(x) = f_2(x)$. Thus, there cannot be two different solutions producing the same data. The solution is unique.
 3. *Stability:* Does the solution depend continuously on the data? 
 
-
-
-:::lemma
-
-Test lemma.
-
-:::
-
-:::definition{title="Title"}
-
-Test definition.
-
-:::
-
 ## Summary
 
 :::theorem{title="Extreme Value Theorem"}
@@ -84,9 +70,21 @@ Every continuous function on a compact space is bounded.
 
 :::
 
-:::lemma
+:::lemma{title="Boundedness of Convergent Sequences"}
 
 Every convergent sequence is bounded.
+
+:::
+
+:::corollary{title="Boundedness"}
+
+Every continuous function on a compact metric space is bounded.
+
+:::
+
+:::proposition{title="Uniqueness of Limits"}
+
+A convergent sequence in a metric space has a unique limit.
 
 :::
 
@@ -96,14 +94,27 @@ A metric space is a set equipped with a distance function.
 
 :::
 
-:::example
+:::example{title="The Real Numbers"}
 
-Consider the real numbers with the usual distance.
+The real numbers with the usual distance form a metric space.
+
+:::
+
+:::remark{title="Completeness"}
+
+Not every metric space is complete.
 
 :::
 
-:::remark
+:::conjecture{title="A Conjecture"}
 
-The converse does not necessarily hold.
+There exists a prime number with a particular property.
 
 :::
+
+:::proof
+
+Let x be an arbitrary element. The result follows immediately. □
+
+:::
+
