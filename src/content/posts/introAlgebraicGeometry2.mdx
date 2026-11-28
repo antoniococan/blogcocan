@@ -16,7 +16,17 @@ draft: false
 
 In [Introduction to Algebraic Geometry - 1](https://antoniococan.github.io/blogcocan/posts/introalgebraicgeometry1/), 
 
+:::definition{title="Affine algebraic sets"}
 
+Let $S \subseteq k[x_1, \ldots, x_n]$ be a set of polynomials. We define the \emph{zero set} or *vanishing set* of $S$ by
+
+$$
+\mathbb{V}(S) := \{ a \in \mathbb{A}^{n}_{k} : f(a) = 0, \forall f \in S \}.
+$$
+
+A subset $X \subseteq \mathbb{A}^{n}_{k}$ is called an *affine algebraic set* if $X = \mathbb{V}(S)$ for some $S \subseteq k[x_1, \ldots, x_n]$.
+
+:::
 
 The following proposition summarizes how affine algebraic sets behave under set-theoretic operations. The first statement says that if the set of polynomials is larger, the set
 of common zeros will be smaller. The second statement asserts that an arbitrary intersection of affine varieties is again an affine variety. The last statement says that a finite union of affine varieties is an affine variety
