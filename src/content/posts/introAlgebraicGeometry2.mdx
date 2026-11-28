@@ -98,13 +98,23 @@ Exercise. □
 
 :::
 
-Let us observe that different collections of polynomials can define exactly the same affine algebraic set. For instance, $S_1 = \{ x, y \}$ and $S_2 = \{ x^2, xy, y^2 \}$ both have the same zero set
-
-$$
-\mathbb{V}(S_1) = \{ (0, 0) \} = \mathbb{V}(S_2).
-$$
+Let us observe that different collections of polynomials can define exactly the same affine algebraic set. For instance, $S_1 = \{ x, y \}$ and $S_2 = \{ x^2, xy, y^2 \}$ both have the same zero set $\mathbb{V}(S_1) = \{ (0, 0) \} = \mathbb{V}(S_2).$
 
 This is not merely a coincidence. We can enlarge a collection of polynomials considerably without changing the affine algebraic set it defines. A natural question then is: Given a collection of polynomials $S$, what is the largest collection of polynomials $\langle S \rangle$ so that $\mathbb{V}(S) = \mathbb{V}(\langle S \rangle)$?
+
+:::definition{title="Ideal"}
+
+A subset $\mathfrak{a} \subseteq A$ of a ring $A$ is called an *ideal* if
+
+1. $0 \in \mathfrak{a}$.
+
+2. If $f \in \mathfrak{a}$, then $-f \in \mathfrak{a}$.
+
+3. If $f, g \in \mathfrak{a}$, then $f + g \in \mathfrak{a}$.
+
+4. If $f \in \mathfrak{a}$ and $h \in A$, then $fh \in \mathfrak{a}$.
+
+:::
 
 ## Noetherian Rings and Hilbert's Basis Theorem
 
